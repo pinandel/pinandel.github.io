@@ -1,7 +1,7 @@
 body{
     margin: 0;
     background-size: cover;
-    background-image: url Gunungan.jpg;
+    background-image: url (Gunungan.jpg);
     background-repeat: no-repeat;
     background-position: center;
     opacity: 0.7 ;
