@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+    background-size: cover;
+    background-image: url(gunungan.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7 ;
+    min-height: 10vw;
+}
+header{
+    background-color: rgb(34, 28, 28);
+    text-align: center;
+    padding: 0%;
+    position: fixed;
+    width: 100%;
+}
+h1{margin: 0; padding: 0vmax;}
+h5{margin: 0vmax; padding: 0vmax;}
+#judul{
+    margin-top: 0;
+    color: white;}
+#tag{
+    margin: 0;
+    padding: 0;
+}
+.pilihan{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+#opsi{
+    background-color:black;
+    color: whitesmoke;
+}
+.pilihan li{
+    list-style: none;
+    margin: 0;
+}
+.pilihan li a{
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+}
+#cerita-total{display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.pencet-1 a{
+    text-decoration: none;
+    color: white
+}
+#cerita-1{
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin: 10% 25% 0% 25%;
+    padding: 20px;
+    font-size: 15pt;
+    text-align: center;
+    background-color: black;
+    color: white
+}
+.kisah{
+    text-align: justify;
+}
+.pencet-2 a{
+    text-decoration: none;
+    color: white
+}
+#cerita-2{
+    width: 50%;
+    height: 50%;
+    float: left;
+    margin: 5% 25% 0% 25%;
+    padding: 20px;
+    font-size: 15pt;
+    text-align: center;
+    background-color: black;
+    color: white;
+    overflow: auto;
+
+}
+.permainan {
+	max-width: 600px;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	padding: 2%;
+	background-color: black;
+	height: 500px;
+}
+
+h1 {
+    color: #ecf0f1;
+}
+
+.scorepermainan {float: left;}
+.timepermainan {float: right;}
+
+.isipermainan:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.bg {
+	background-color: brown;
+}
+button {
+   border: none;
+  background-color: red;
+  box-shadow: 0px 5px 0px 0px brown;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 20px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+button:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+.scorepermainan p, .scorepermainan span, .timepermainan p, .timepermainan span {
+    font-size: 30px;
+    color: red;
+}
+
+.wordspermainan {
+	margin-top: 50px;
+}
+
+.words span{
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: red;
+}
+.pencet-3 a{
+    text-decoration: none;
+    color: white
+}
+#cerita-3{
+    font-family: 'Jim Nightshade', cursive;
+    width: 50%;
+    height: 96%;
+    float: left;
+    margin: 5% 25% 0% 25%;
+    padding: 20px;
+    font-size: 15pt;
+    text-align: center;
+    background-color: black;
+    color: white;
+
+}
+.hong a{
+    text-decoration: none;
+    color: black;
+}
+.hong :hover{
+    transition: 5s;
+    color: red;
+}
+.footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(34, 28, 28);
+        color: white;
+        text-align: center;
+}
